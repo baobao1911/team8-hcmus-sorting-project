@@ -1,1 +1,1 @@
-[![C/C++ CI](https://github.com/trunghieumickey/team8-hcmus-sorting-project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/trunghieumickey/team8-hcmus-sorting-project/actions/workflows/c-cpp.yml)
+Build Status : [![GNU C++](https://github.com/trunghieumickey/team8-hcmus-sorting-project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/trunghieumickey/team8-hcmus-sorting-project/actions/workflows/c-cpp.yml)
