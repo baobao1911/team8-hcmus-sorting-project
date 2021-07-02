@@ -10,7 +10,7 @@
                 "/EHsc",
                 "/nologo",
                 "/Fe:",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}\\sort.exe",
                 "${fileDirname}\\**.cpp",
             ],
             "options": {

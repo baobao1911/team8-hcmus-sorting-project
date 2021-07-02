@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 void SelectionSort(int a[], int n);
 void InsertionSort(int a[], int n);
 void BubbleSort(int a[], int n);
