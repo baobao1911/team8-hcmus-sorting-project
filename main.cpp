@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     int *a = new int[50];
     GenerateData(a,50,0);
     printArray(a,50);
-    SortData(a,50,6);
+    SortData(a,50,8);
     printArray(a,50);
     return 0;
 }

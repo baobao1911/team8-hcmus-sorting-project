@@ -8,19 +8,23 @@ int Partition(int a[], int left, int right) {
 	for (j = left; j <= right - 1; j++){
 		if (a[j] < pivot){
 			i++;
-			std::swap(a[i], a[j]);
+			swap(a[i], a[j]);
 		}
 	}
-	std::swap(a[i + 1], a[right]);
+	swap(a[i + 1], a[right]);
 	return (i + 1);
 }
 
-void QuickSort(int a[], int left, int right) {
+void QuickSortSub(int a[], int left, int right) {
 	if (left < right)
 	{
 		int pi = Partition(a, left, right);
 
-		QuickSort(a, left, pi - 1);  // Before pi
-		QuickSort(a, pi + 1, right); // After pi
+		QuickSortSub(a, left, pi - 1);  // Before pi
+		QuickSortSub(a, pi + 1, right); // After pi
 	}
+}
+
+void QuickSort(int a[], int n){
+	return QuickSortSub(a,0,n);
 }
