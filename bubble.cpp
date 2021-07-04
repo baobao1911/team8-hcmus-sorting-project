@@ -1,15 +1,11 @@
 #include "sort.h"
-
-void bubbleSort(int a[], int n)
-{
-    for (int i = 0; i <= (n - 2); i++)
-    {
-        for (int j = n - 1; j >= i; j--)
-        {
-            if (a[j] < a[j - 1])
-            {
-                swap(a[j - 1], a[j]);
-            }
+void BubbleSort(int a[], int n){
+    bool check = true;
+    while (check){
+        check = false;
+        for (int i=0; i<n-1; i++) if (a[i]>a[i+1]) {
+            swap(a[i],a[i+1]);
+            check = true;
         }
     }
 }
