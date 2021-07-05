@@ -11,7 +11,7 @@ void SortData(int a[], int n, int sortType){
         case 6: HeapSort(a,n); break;
         //case 7: MergeSort(a,n); break;
         case 8: QuickSort(a,n); break;
-        //case 9: CountingSort(a,n); break;
+        case 9: CountingSort(a,n); break;
         //case 10: RadixSort(a,n); break;
         //case 11: FlashSort(a,n); break;
 	}
